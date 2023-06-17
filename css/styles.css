@@ -1,0 +1,37 @@
+/*Programmer: Sai Chand Akkisani
+     Student ID: C0882366
+     Front End Web Development 2 Assignment 3-4
+     Date: 16 Jun 2023*/
+
+.header{    /*Style for header*/
+	padding:1%;
+	margin:0;
+	background-color: #38547c;
+	color: white;
+	
+}
+
+.converter1{   /*Style for input field*/
+	display: inline;
+	padding: 2%;
+	float: left;
+	flex-direction: row;
+}
+
+.converter2{   /*Style for output field*/
+	display: inline;
+	padding: 2%;
+	float: left;
+	flex-direction: row;
+	margin-right: 54%;
+}
+
+.converter3{    /*Style for button*/
+	border-radius: 50%;
+	padding: 2%;
+	margin-left: 25%;
+	background-color: #38547c;
+	color: white;
+	float: left;
+
+}

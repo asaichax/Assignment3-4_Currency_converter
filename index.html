@@ -1,0 +1,49 @@
+<!-- Programmer: Sai Chand Akkisani
+     Student ID: C0882366
+     Front End Web Development 2 Assignment 3-4 
+     Date: 16 Jun 2023-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../Sai Chand Akkisani_C0882366_Assignment 3-4/css/styles.css">
+	<script src="./js/scripts.js"> </script>
+	<title>Currency converter</title>
+</head>
+<body>
+	<div class = "header">
+		<h1>US Dollar to Canadian Dollar</h1>
+		<h2>Convert USD to CAD at the real exchange data</h2>
+	</div>
+	<div class="converter1">
+		<form>
+			<label for="amount">Amount</label><br>
+  			<input type="number" id="usdCurrency" name="amount"br>   
+  			<!--Drop down to select currency-->
+  			<select id="to">
+         		<option value="USD">USD</option>
+         		<option value="CAD">CAD</option>
+			</select>
+		</form> 
+	</div>
+	<div class="converter2">
+		<form>
+  			<label for="converted_to">Converted to</label><br>
+  			<input type="number" id="cadCurrency" name="converted_to">
+  			<!--Drop down to select currency-->
+  			<select id="to2">
+         		<option value="CAD">CAD</option>
+         		<option value="USD">USD</option>
+			</select>
+		</form>
+	</div><br><br><br><br><br>
+	<div>    <!--Convert button-->
+		
+  			<input class="converter3" onclick="convert(event)" type="submit" value="Convert">
+		
+	</div>
+</body>	
+</html>
